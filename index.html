@@ -1,0 +1,34 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestor de Frota</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <h1>Gestor de Frota</h1>
+
+  <input type="text" id="marca" placeholder="Digite a marca" onkeyup="mostrarPreview()">
+
+  <input type="text" id="modelo" placeholder="Digite o modelo">
+
+  <input type="number" id="ano" placeholder="Digite o ano">
+
+  <div id="preview">Preview da Marca:</div>
+
+  <button onclick="fabricarCarro()">
+    Fabricar Carro
+  </button>
+
+  <div id="patio"></div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
