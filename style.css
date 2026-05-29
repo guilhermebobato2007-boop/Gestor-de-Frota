@@ -1,0 +1,95 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.container {
+  background-color: white;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#preview {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#patio {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.carro {
+  width: 220px;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  transition: 0.3s;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+}
+
+.carro:hover {
+  transform: scale(1.05);
+}
+
+.carro h3 {
+  margin: 0;
+  color: #007bff;
+}
+
+.carro p {
+  margin: 5px 0;
+  color: #555;
+}
